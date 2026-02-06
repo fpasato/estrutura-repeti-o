@@ -10,7 +10,7 @@ while True:
         print(f'{n1} x {i} = {n1 * i}')
     
 
-    continuar = input('Quer geraar outra tabuada? \n[S]sim\nQualquer outra tecla para não\n').strip().lower()
+    continuar = input('Quer geraar outra tabuada? \n[S]Sim\nQualquer outra tecla para não\n').strip().lower()
 
     if continuar == 's':
         continue
