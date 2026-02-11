@@ -20,5 +20,6 @@ while True:
         if continuar == 's':
             continue
         else:
-            print("Fechando calculadora...")
+            print('\033[4;37;41mFechando calculadora...\033[m')
+
             break
